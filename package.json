@@ -1,7 +1,7 @@
 {
   "name": "noble-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "Command Line utility to scan for Bluetooth Low Energy (BLE) devices",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +10,16 @@
     "noble": "index.js",
     "noble-cli": "index.js"
   },
-  "author": "",
+  "repository": {
+	  "type" : "git",
+	  "url" : "https://github.com/WeeJeWel/noble-cli.git"
+  },
+  "author": "Emile Nijssen",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
-    "clear": "^0.1.0",
     "cli-table2": "^0.2.0",
     "jetty": "^0.2.1",
-    "noble": "^1.9.1",
-    "table": "^4.0.3"
+    "noble": "^1.9.1"
   }
 }

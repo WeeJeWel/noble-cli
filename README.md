@@ -1,5 +1,7 @@
 # Noble CLI
 
+Command Line utility to scan for Bluetooth Low Energy (BLE) devices
+
 ## Installation
 
 ```
