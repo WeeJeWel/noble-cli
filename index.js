@@ -3,7 +3,7 @@
 'use strict';
 
 const Jetty = require("jetty");
-const Table = require('cli-table2');
+const Table = require('cli-table3');
 const chalk = require('chalk');
 const noble = require('noble');
 
